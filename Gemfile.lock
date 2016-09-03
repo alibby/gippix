@@ -1,0 +1,25 @@
+PATH
+  remote: .
+  specs:
+    gippix (0.0.1)
+      nokogiri (~> 1.1, >= 1.1.4)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    mini_portile2 (2.1.0)
+    minitest (5.5.0)
+    nokogiri (1.6.8)
+      mini_portile2 (~> 2.1.0)
+      pkg-config (~> 1.1.7)
+    pkg-config (1.1.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  gippix!
+  minitest
+
+BUNDLED WITH
+   1.10.6
