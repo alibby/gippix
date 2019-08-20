@@ -1,23 +1,21 @@
 PATH
   remote: .
   specs:
-    gippix (0.0.4)
-      nokogiri (~> 1.8.2)
+    gippix (0.0.5)
+      nokogiri
 
 GEM
   remote: https://rubygems.org/
   specs:
-    mini_portile2 (2.3.0)
-    nokogiri (1.8.2)
-      mini_portile2 (~> 2.3.0)
-    rake (11.2.2)
+    mini_portile2 (2.4.0)
+    nokogiri (1.10.4)
+      mini_portile2 (~> 2.4.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   gippix!
-  rake
 
 BUNDLED WITH
-   1.16.1
+   1.17.0
