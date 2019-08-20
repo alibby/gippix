@@ -2,7 +2,7 @@ require 'date'
 
 Gem::Specification.new do |s|
   s.name        = 'gippix'
-  s.version     = '0.0.4'
+  s.version     = '0.0.5'
   s.date        =  DateTime.now.strftime "%Y-%m-%d"
   s.summary     = "GPX parser/ reader"
   s.description = "Reads GPX files."
@@ -11,5 +11,5 @@ Gem::Specification.new do |s|
   s.files       = ["lib/gippix.rb"]
   s.homepage    = 'http://github.com/alibby/gippix'
   s.license     = 'MIT'
-  s.add_runtime_dependency 'nokogiri', '~> 1.8', '~> 1.8.2'
+  s.add_runtime_dependency 'nokogiri'
 end
